@@ -1,6 +1,8 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import HeroPage from "./hero/page";
+import NavBar from "@/components/NavBar";
+import NextThemeProvider from "@/Providers/NextThemeProvider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,15 +24,17 @@ export default function RootLayout({ children }) {
     <html
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      suppressHydrationWarning
     >
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full flex flex-col bg-background text-foreground">
 
-       
+     <NextThemeProvider>
+        <NavBar></NavBar>
 
       <main>
-
           {children}
       </main>
+     </NextThemeProvider>
 
         </body>
     </html>
