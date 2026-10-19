@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "title": "Learn Next.js",
+      "description": "Learn Next.js routing, layouts, and pages.",
+      "status": "pending",
+      "priority": "high",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "title": "Build a Todo App",
+      "description": "Create a todo application using React and Tailwind CSS.",
+      "status": "in-progress",
+      "priority": "high",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "title": "Practice JavaScript",
+      "description": "Practice arrays, objects, functions, and promises.",
+      "status": "pending",
+      "priority": "medium",
+      "completed": false
+    },
+    {
+      "id": 4,
+      "title": "Complete Assignment",
+      "description": "Finish the Next.js data fetching assignment.",
+      "status": "completed",
+      "priority": "high",
+      "completed": true
+    },
+    {
+      "id": 5,
+      "title": "Update GitHub Profile",
+      "description": "Upload projects and update the GitHub profile README.",
+      "status": "pending",
+      "priority": "low",
+      "completed": false
+    }
+  ]
