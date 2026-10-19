@@ -8,6 +8,7 @@ const HeroPage = () => {
             <h2>hero page</h2>
 
              <Button>Primary</Button>
+             <Button>Primary</Button>
      
       
            
