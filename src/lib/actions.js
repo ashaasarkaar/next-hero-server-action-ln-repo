@@ -12,7 +12,7 @@ export const CreateATask = async(formData) => {
     if(res.ok){
         revalidatePath('/tasks')
     }
-    return res;
+     return res;
 
 
 }
